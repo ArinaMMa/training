@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "sass": "sass ./src/sass/style.scss ./public/css/style.min.css --watch --style=compressed"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "sass": "^1.70.0"
+  }
+  
+}

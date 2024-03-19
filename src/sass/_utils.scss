@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+section {
+    padding-bottom: 3rem;
+    padding: 1rem;
+
+    & .text {
+        display: flex;
+        max-width: 320px ;
+    }
+
+    & .btn-modal {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+main:hover > section {
+    opacity: 0.5;
+}
+
+main:hover > .section-leopard:hover {
+    opacity: 1;
+}
+main:hover > .section-elephant:hover {
+    opacity: 1;
+}
+main:hover > .section-zebra:hover {
+    opacity: 1;
+}
